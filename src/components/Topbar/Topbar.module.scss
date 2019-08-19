@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	width: 100%;
+	height: 50px;
+	background: green;
+	border-bottom: 1px solid lightgrey;
+}
+.list {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-around;
+}
+.item {
+	padding: 8px 0 0 0;
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+	align-items: center;
+
+
+
+}
+.item:hover {
+	cursor: pointer;
+	outline: none;
+	color: blue;
+}
+.header{
+	padding: 8px 0 0 0;
+	font-weight: 700;
+	color: blue;
+}
